@@ -11,6 +11,9 @@ import './App.css'
 // useMemo
 // import { Example1 } from './hooks/use_memo/example_1'
 
+
+// ▶️ Uncomment the different components to play around with them! ▶️
+
 function App() {
 
   return (

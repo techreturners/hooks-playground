@@ -4,7 +4,10 @@ export const Example1: React.FC = () => {
     console.log('Rendering App...');
 
     const [number, setNumber] = useState(3)
-    const result = slowFunction(number);
+    
+    const result = useMemo(() => {
+        slowFunction(number)
+    },[number])
 
     const [count, setCount] = useState<number>(0)
 
